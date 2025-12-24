@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Car Drive Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🚗 Web Car Drive</h1>
+        <div class="instructions">
+            <p><strong>Controls:</strong> Arrow Keys to Drive | Space to Brake</p>
+            <p>Speed: <span id="speed">0</span> km/h | Distance: <span id="distance">0</span> m</p>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="mobile-controls">
+            <button id="left" class="control-btn">⬅️</button>
+            <button id="up" class="control-btn">⬆️</button>
+            <button id="down" class="control-btn">⬇️</button>
+            <button id="right" class="control-btn">➡️</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
